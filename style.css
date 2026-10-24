@@ -25,8 +25,8 @@ body {
   font-family: Georgia, "Times New Roman", serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top, rgba(255,255,255,.35), transparent 28rem),
-    linear-gradient(rgba(255,255,255,.08), rgba(255,255,255,.08)),
+    radial-gradient(circle at top, rgba(255, 255, 255, .35), transparent 28rem),
+    linear-gradient(rgba(255, 255, 255, .08), rgba(255, 255, 255, .08)),
     var(--bg);
 }
 
@@ -83,7 +83,10 @@ a {
   color: var(--gold);
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin-top: 0;
 }
 
@@ -133,7 +136,7 @@ p {
   padding: 12px 19px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(255,255,255,.25);
+  background: rgba(255, 255, 255, .25);
   text-decoration: none;
   color: var(--ink);
   font-weight: 700;
@@ -267,9 +270,9 @@ footer {
     padding-top: 8px;
   }
 
-.logo {
-    width: 60px;
-    height: 60px;
+  .logo {
+    width: 120px;
+    height: 120px;
     object-fit: contain;
-}
+  }
 }
