@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Crafter's Journal — an independent third-party crafting and market companion for Albion Online.">
+  <title>Crafter's Journal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <header class="hero">
+      <img class="logo" src="assets/logo.png" alt="Crafter's Journal logo"
+           onerror="this.style.display='none'">
+      <p class="eyebrow">Independent third-party companion</p>
+      <h1>Crafter’s Journal</h1>
+      <p class="lead">
+        Crafting and market tools built to help Albion Online players compare costs,
+        estimate returns, discover opportunities, and review market activity.
+      </p>
+
+      <nav class="actions" aria-label="Primary">
+        <a class="button primary" href="support.html">Support</a>
+        <a class="button" href="privacy.html">Privacy Policy</a>
+      </nav>
+    </header>
+
+    <section class="card-grid" aria-label="Features">
+      <article class="card">
+        <h2>Crafting</h2>
+        <p>Estimate required resources, crafting costs, resource returns, and production bonuses.</p>
+      </article>
+
+      <article class="card">
+        <h2>Opportunities</h2>
+        <p>Compare crafting costs with historical market information to identify potential opportunities.</p>
+      </article>
+
+      <article class="card">
+        <h2>Market Flipping</h2>
+        <p>Review estimated buy and sell opportunities across supported Albion Online cities.</p>
+      </article>
+    </section>
+
+    <section class="notice">
+      <h2>About the data</h2>
+      <p>
+        Market information used by the app is based on community-sourced data made available
+        through the Albion Online Data Project. Market prices may change quickly and values
+        shown by the app should be treated as estimates.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <p>
+        Crafter’s Journal is an independent third-party application and is not affiliated with,
+        endorsed by, sponsored by, or otherwise associated with Sandbox Interactive GmbH.
+      </p>
+      <p>
+        Albion Online and related names and trademarks are the property of their respective owners.
+      </p>
+      <nav>
+        <a href="privacy.html">Privacy Policy</a>
+        <span>•</span>
+        <a href="support.html">Support</a>
+      </nav>
+      <p class="copyright">© <span id="year"></span> Faruk Erdem Dereci</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
